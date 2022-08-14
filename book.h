@@ -1,4 +1,4 @@
-#include <vector>
+#include <string>
 
 using namespace std;
 
@@ -6,16 +6,19 @@ class Book
 {
     private:
 
-    vector<char> *author = new vector<char>(30);
-    vector<char> *title = new vector<char>(30);
+    string author;
+    string title;
     float price;
     int inStore;
 
     public:
 
+    Book(string = "Author", string = "Title", float = "Price", int = "In Store");
+    ~Book();
+
     void addbook();
     void editentry();
     void showentry();
     void buybook();
-    int lookfor(vector<char> v1, vector<char> v2);
+    int lookfor();
 };
