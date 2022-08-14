@@ -13,7 +13,7 @@ class Book
 
     public:
 
-    Book(string = "Author", string = "Title", float = "Price", int = "In Store");
+    Book(string = "Author", string = "Title", float = 100, int = 1);
     ~Book();
 
     void addbook();
