@@ -20,5 +20,5 @@ class Book
     void editentry();
     void showentry();
     void buybook();
-    int lookfor();
+    int lookfor(string, string);
 };
