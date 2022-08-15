@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1660565326 source:/home/wassper/Coding/BookStore/main.cpp
+	<iostream>
+	<string.h>
+	<stdlib.h>
+	"book.h"
+
+1660566167 source:/home/wassper/Coding/BookStore/book.cpp
+	"book.h"
+	<iostream>
+	<string.h>
+
+1660513858 /home/wassper/Coding/BookStore/book.h
+	<string>
+
