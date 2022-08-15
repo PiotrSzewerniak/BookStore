@@ -20,8 +20,10 @@ Book::~Book()
 void Book::addbook()
 {
     cout<<"Enter author"<<endl;
+    cin.ignore();
     getline(cin, author);
     cout<<"Enter title"<<endl;
+    cin.ignore();
     getline(cin, title);
     cout<<"Enter price"<<endl;
     cin>>price;
@@ -32,8 +34,10 @@ void Book::addbook()
 void Book::editentry() //same as addbook
 {
     cout<<"Enter author"<<endl;
+    cin.ignore();
     getline(cin, author);
     cout<<"Enter title"<<endl;
+    cin.ignore();
     getline(cin, title);
     cout<<"Enter price"<<endl;
     cin>>price;
